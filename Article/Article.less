@@ -42,9 +42,15 @@
 }
 
 .article-open {
-  height: 400px;
+  animation: slideOpen 2s 0s forwards;
 }
 
 
-
+@keyframes slideOpen {
+  0% {
+    height: 50px;
+  } 100% {
+    height: 400px;
+  }
+}
 
